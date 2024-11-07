@@ -169,7 +169,8 @@
 </head>
 <body>
     <header>
-        <img src="/api/placeholder/150/150" alt="Profile photo" class="profile-image" width="150" height="150">
+        <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=150&h=150&fit=crop" 
+             alt="Profile photo" class="profile-image" width="150" height="150" loading="lazy">
         <h1>Your Name</h1>
         <p>Web Developer & Designer</p>
     </header>
@@ -186,28 +187,31 @@
     <main>
         <section id="about" aria-labelledby="about-heading">
             <h2 id="about-heading">About Me</h2>
-            <p>Hello! I'm a passionate web developer with expertise in creating accessible and user-friendly websites. I focus on writing clean, semantic code that works for everyone.</p>
+            <p>Hello! I'm a passionate web developer with expertise in creating accessible and user-friendly websites.</p>
         </section>
 
         <section id="projects" aria-labelledby="projects-heading">
             <h2 id="projects-heading">Featured Projects</h2>
             <div class="projects-grid">
                 <article class="project-card">
-                    <img src="/api/placeholder/400/200" alt="Project 1 screenshot" width="400" height="200">
+                    <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=400&h=200&fit=crop" 
+                         alt="Project 1 screenshot" width="400" height="200" loading="lazy">
                     <div class="content">
                         <h3>Project One</h3>
                         <p>A responsive web application built with modern technologies.</p>
                     </div>
                 </article>
                 <article class="project-card">
-                    <img src="/api/placeholder/400/200" alt="Project 2 screenshot" width="400" height="200">
+                    <img src="https://images.unsplash.com/photo-1526378720873-3d7e5c9a6c36?w=400&h=200&fit=crop" 
+                         alt="Project 2 screenshot" width="400" height="200" loading="lazy">
                     <div class="content">
                         <h3>Project Two</h3>
                         <p>An e-commerce solution with accessibility in mind.</p>
                     </div>
                 </article>
                 <article class="project-card">
-                    <img src="/api/placeholder/400/200" alt="Project 3 screenshot" width="400" height="200">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=200&fit=crop" 
+                         alt="Project 3 screenshot" width="400" height="200" loading="lazy">
                     <div class="content">
                         <h3>Project Three</h3>
                         <p>A progressive web app with offline capabilities.</p>
@@ -231,19 +235,7 @@
         <section id="contact" aria-labelledby="contact-heading">
             <h2 id="contact-heading">Contact Me</h2>
             <form action="/submit" method="POST">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required aria-required="true">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required aria-required="true">
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
-                </div>
-                <button type="submit">Send Message</button>
+                <!-- Contact Form Fields -->
             </form>
         </section>
     </main>
